@@ -27,3 +27,12 @@ Nie jest to rekonstrukcja TK pacjenta ani certyfikowany atlas diagnostyczny; pos
 Przenieść do repozytorium kompletny kod wtyczki, dodać ciągłą integrację testów PHP/JS, lokalne bundlowanie Three.js, osobne licencjonowane warstwy anatomiczne i procedurę przeglądu merytorycznego przez anatoma.
 
 Licencja kodu repozytorium: GPL-3.0 (plik LICENSE). Licencje zewnętrznych modeli pozostają niezależne.
+
+
+## Aktualizacja 1.7.0 (2 listopada 2026)
+
+W przygotowanej paczce instalacyjnej WordPress 1.7.0 ulepszono proceduralną powłokę ciała (płynne przekroje tułowia i kończyn), rozbudowano geometrię kości ramiennych, promieniowych, łokciowych, udowych, piszczelowych i strzałkowych oraz dodano przełączaną warstwę 34 poglądowych struktur mięśniowych. Zachowano pinezki, katalog schorzeń, kategorie i import GLB.
+
+Weryfikacja lokalna: składnia PHP/JS, test siatek 3D (31 siatek powłoki, 34 siatki mięśni; wszystkie współrzędne skończone, prawidłowe indeksy), kontrole regresyjne funkcji WordPress oraz integralność ZIP. **Brak jeszcze pełnych testów wizualnych i instalacyjnych na WordPressie**. Geometryczny model proceduralny nie jest rekonstrukcją anatomiczną 1:1 ani narzędziem diagnostycznym.
+
+**Status repozytorium:** na razie dokumentacja projektu; pełnego kodu wtyczki i paczki ZIP v1.7.0 nie opublikowano jeszcze w repo. Wydanie ZIP przekazano bezpośrednio w rozmowie, a źródła mogą zostać przeniesione do repo w następnym kroku.
