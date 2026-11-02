@@ -36,3 +36,16 @@ W przygotowanej paczce instalacyjnej WordPress 1.7.0 ulepszono proceduralną pow
 Weryfikacja lokalna: składnia PHP/JS, test siatek 3D (31 siatek powłoki, 34 siatki mięśni; wszystkie współrzędne skończone, prawidłowe indeksy), kontrole regresyjne funkcji WordPress oraz integralność ZIP. **Brak jeszcze pełnych testów wizualnych i instalacyjnych na WordPressie**. Geometryczny model proceduralny nie jest rekonstrukcją anatomiczną 1:1 ani narzędziem diagnostycznym.
 
 **Status repozytorium:** na razie dokumentacja projektu; pełnego kodu wtyczki i paczki ZIP v1.7.0 nie opublikowano jeszcze w repo. Wydanie ZIP przekazano bezpośrednio w rozmowie, a źródła mogą zostać przeniesione do repo w następnym kroku.
+
+
+## Aktualizacja 1.8.0 — kości kończyn i stawy (2026-11-02)
+
+Nowa paczka instalacyjna WordPress Medical Body Atlas 3D v1.8.0 została przygotowana na bazie v1.7.0. Zawiera osobny moduł `assets/joints.js`, który zastępuje uproszczone kończyny procedurami z indywidualnymi głowami i nasadami kości, kłykciami, rzepką, strukturami nadgarstka i stępu oraz delikatnymi powierzchniami stawowymi. Dodano subtelną kontrolkę `Zbliż staw…` i obsługę wybierania nazwanych struktur przy pinezkach.
+
+Zachowano dane `mba_atlas_data`, dotychczasowe modele czaszki, skóry i mięśni, typ wpisów schorzeń, kategorie oraz przypisania stron/wpisów. Zapis konfiguracji i jego schemat nie zostały zmienione.
+
+**Weryfikacja techniczna:** składnia PHP/JS, symulowane testy generowania 198 siatek kończyn i stawów (176 kości + 22 powierzchnie stawowe), indeksy trójkątów, skończone współrzędne, integralność ZIP. **Nie wykonano pełnego testu wizualnego w działającym WordPress.**
+
+**Dokładność:** kończyny są rekonstrukcją poglądową, nie certyfikowanym modelem medycznym 1:1. Dokumentacja techniczna znajduje się w [docs/WYDANIE-1.8.0.md](docs/WYDANIE-1.8.0.md).
+
+**Źródła:** paczka ZIP i kod `assets/joints.js` nie zostały jeszcze przesłane do GitHub; repozytorium wciąż zawiera dokumentację. Kolejny etap to przeniesienie całych źródeł, testów i workflow GitHub Actions.
