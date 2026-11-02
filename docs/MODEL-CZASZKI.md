@@ -7,7 +7,7 @@
 - Kolekcja: Khronos Group / glTF Sample Assets
 - Licencja modelu: **CC0 1.0 Universal**, https://github.com/KhronosGroup/glTF-Sample-Assets/blob/main/Models/ScatteringSkull/LICENSE.md
 - Źródło modelu: https://github.com/KhronosGroup/glTF-Sample-Assets/tree/main/Models/ScatteringSkull
-- Plik: https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/Models/ScatteringSkull/glTF-Binary/ScatteringSkull.glb
+- Plik: https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/c2062ec0766461d601e3f26005f4d19f32247479/Models/ScatteringSkull/glTF-Binary/ScatteringSkull.glb
 - Deklarowany rozmiar: 8 959 044 bajtów
 - Oczekiwany Git blob SHA-1: `9e1927babc5791067ccf2004bda7e59a40cac753`
 
