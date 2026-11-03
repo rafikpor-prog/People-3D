@@ -49,3 +49,10 @@ Zachowano dane `mba_atlas_data`, dotychczasowe modele czaszki, skóry i mięśni
 **Dokładność:** kończyny są rekonstrukcją poglądową, nie certyfikowanym modelem medycznym 1:1. Dokumentacja techniczna znajduje się w [docs/WYDANIE-1.8.0.md](docs/WYDANIE-1.8.0.md).
 
 **Źródła:** paczka ZIP i kod `assets/joints.js` nie zostały jeszcze przesłane do GitHub; repozytorium wciąż zawiera dokumentację. Kolejny etap to przeniesienie całych źródeł, testów i workflow GitHub Actions.
+
+
+## Aktualizacja 2.2.0 — dłonie, stopy i mięśnie (2026-11-03)
+
+Przygotowano kolejną instalacyjną paczkę WordPress Medical Body Atlas 3D. Zawiera niezależnie nazwane kości dłoni (27/dłoń) i stopy (26/stopę), wygładzony spód stopy z łukiem przyśrodkowym i wybrane mięśnie wewnętrzne dłoni/stopy. Pozostają dotychczasowe schorzenia, kategorie, pinezki, import GLB i shortcode. Wyniki testów lokalnych i ograniczenia opisano w [dokumentacji wydania 2.2.0](docs/WYDANIE-2.2.0.md).
+
+**Repozytorium nadal zawiera dokumentację, a nie kompletny kod źródłowy gotowy do instalacji.** Pełna paczka ZIP została przekazana w rozmowie i przed wdrożeniem wymaga testów staging i wizualnych.
